@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Quizzy .3</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+<div  id="un_div">
+      <h1>Bienvenido a Quizzy!</h1>
+      <h2>¿Cual es tu nombre?</h2>
+  <p>Este es un juego de trivias para que puedas medir tus conocimientos en distintos temas.
+          Te daremos una pregunta y 3 posibilidades de respuestas, deberas marcar la respuesta correcta
+          y así demostrarnos que tanto sabes del tema que elegiste!
+        Para comenzar el juego es necesario que ingreses tu nombre.</p><br>
+        <p>Cuando estes list@ para comenzar dinos tu nombre:</p>
+  
+      <input type="text" id="nombreJugador" value="">
+      <button onclick="obtenerNombre()" id="boton1">Ingresar</button>
+    </div>
+    <div id="dos_div"> 
+         <h3 id="nombre"></h3>
+         <h4>Escoja una categoria</h4>
+    </div>
+    
+    <div id="categorias"> 
+        <button onclick="categoriaA()" id="boton2">Olimpiadas</button>
+        <button onclick="categoriaB()" id="boton3">Los Simpson</button>   
+    </div> 
+  
+    <div id="categoriaA">
+      
+    <div id="pregunta1">
+      <h6>Elije una de las alternativas</h6>
+          <img class="irc_mi" src="http://scd.es.rfi.fr/sites/espanol.filesrfi/imagecache/rfi_large_600_338/sites/images.rfi.fr/files/aef_image/2017-09-16t140418z_952480807_rc1754369200_rtrmadp_3_olympics-2024.jpg" alt="Resultado de imagen para olimpiadas imagenes jpg" onload="typeof google==='object'&amp;&amp;google.aft&amp;&amp;google.aft(this)" width="550" height="338" style="margin-top: 8px;">
+  
+		 <p>Cuál de estos deportes debutara en las olimpiadas?</p>
+      
+		 <input type="radio" name="respuesta1" id="r1" >Karate</input>
+		 <input type="radio" name="respuesta1" id="r2" >Tenis de Mesa</input>
+			      <input type="radio" name="respuesta1" id="r3" >Boxeo</input>	
+            <button onclick="pregunta1()" id="boton4">Siguiente</button>
+	      </div>
+
+	        <div id="pregunta2">
+            <img class="irc_mi" src="http://elestimulo.com/wp-content/uploads/2016/04/olimp%C3%ADadas-1100x618.jpg" onload="typeof google==='object'&amp;&amp;google.aft&amp;&amp;google.aft(this)" width="550" height="340" style="margin-top: 0px;" alt="Resultado de imagen para olimpiadas imagenes jpg">
+		         <p>Cuántos países participan Actualmente en los Juegos Olimpicos?</p>
+             <input type="radio" name="respuesta2" id="r4" >165</input>
+             <input type="radio" name="respuesta2" id="r5" >148</input>
+             <input type="radio" name="respuesta2" id="r6" >206</input>
+            <button onclick="pregunta2()" id="boton4">Siguiente</button>
+	       </div>
+
+	      <div id="pregunta3">
+          <img class="irc_mi" src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Provas_de_Atletismo_nas_Olimp%C3%ADadas_Rio_2016_%2829004555662%29.jpg" alt="Resultado de imagen para olimpiadas imagenes jpg" onload="typeof google==='object'&amp;&amp;google.aft&amp;&amp;google.aft(this)" width="500" height="340" style="margin-top: 0px;">
+		        <p>Cada cuanto se realizan las olimpiadas?</p>
+		  	    <input type="radio" name="respuesta3" id="r7">Cada 2 años</input>
+		  	    <input type="radio" name="respuesta3" id="r8">Cada 4 años</input>
+			      <input type="radio" name="respuesta3" id="r9">Cada 6 años</input>
+            <button onclick="verResultado()" id="boton5">Ver resultado</button>
+	      </div>
+      
+   </div>
+
+  <div id="categoriaB">
+    
+ 
+  <div id="pregunta4">
+        <h6>Elije una de las alternativas</h6>
+        <img class="irc_mi" src="https://vignette.wikia.nocookie.net/lossimpson/images/9/9b/Homer-simpson-1280x1024.jpg/revision/latest?cb=20110106181429&amp;path-prefix=es" alt="Resultado de imagen para imagenes lo simpson jpg" onload="typeof google==='object'&amp;&amp;google.aft&amp;&amp;google.aft(this)" width="500" height="340" style="margin-top: 0px;">
+		      <p>Quien es el creador de los Simpson?</p>
+		    	<input type="radio" name="respuesta4" id="r10">OJ Simpson</input>
+			    <input type="radio" name="respuesta4" id="r11">Matt Groening</input>
+			    <input type="radio" name="respuesta4" id="r12">Seth Mc Farlane</input>
+          <button onclick="pregunta4()" id="boton4">Siguiente</button>
+	    </div>
+
+	    <div id="pregunta5">
+        <img class="irc_mi" src="http://cadenaser00.epimg.net/ser/imagenes/2014/12/17/television/1418786070_064451_1418786171_noticia_normal.jpg" onload="typeof google==='object'&amp;&amp;google.aft&amp;&amp;google.aft(this)" width="500" height="353" style="margin-top: 0px;" alt="Resultado de imagen para imagenes lo simpson jpg">
+        <p>En Que pueblo viven Los Simpson?    
+        </p>
+           <input type="radio" name="respuesta5" id="r13">Springfield</input>
+           <input type="radio" name="respuesta5" id="r14">Simpsontown</input>
+           <input type="radio" name="respuesta5" id="r15">Wisteria Lane</input>
+           <button onclick="pregunta5()" id="boton4">Siguiente</button>
+	  </div>
+
+	   <div id="pregunta6">
+       <img class="irc_mi" src="https://www.soydemac.com/wp-content/uploads/2014/07/homer-simpson.jpg" alt="Resultado de imagen para imagenes lo simpson jpg" onload="typeof google==='object'&amp;&amp;google.aft&amp;&amp;google.aft(this)" width="500" height="353" style="margin-top: 0px;">
+		    <p>En que año se estreno la serie en U.S.A?</p>
+		  	<input type="radio" name="respuesta6" id="r16">1992</input>
+		  	<input type="radio" name="respuesta6" id="r17">1995</input>
+			  <input type="radio" name="respuesta6" id="r18">1989</input>
+<button onclick="verResultado2()" id="boton5">Ver resultado</button>
+
+  </div>
+
+</div>
+  <div id="correctas"></div>
+ <div id="correctas1"></div>
+
+<center><button id="volver" onclick=location=URL><span>Volver Al Inicio</span></button><center>
+  
+ 
+  </body>
+</html>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

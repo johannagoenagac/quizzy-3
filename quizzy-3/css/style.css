@@ -1,0 +1,171 @@
+body{
+    background-color: #B82148;
+    text-align: center;
+}
+#un_div{ 
+    display : block; 
+}
+#dos_div{ 
+    display : none; 
+}
+#categorias{ 
+    display : none; 
+}
+#demo{ 
+    color: white; 
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-family: Georgia;
+}
+h2{
+    color: #E86F15;
+    font-size: 22px;
+    font-family: helvetica roman;
+}
+
+h3{
+    color: #E86F15;
+    font-size: 23px;
+    font-family: helvetica medium;
+}
+
+h4{
+    color: white;
+    font-size: 19px;
+    font-family: helvetica light;
+  
+}
+
+h5{
+    color: white;
+    font-size: 22px;
+    font-family: helvetica medium;
+}
+
+h6{
+    color: #E86F15;
+    font-size: 23px;
+    font-family: helvetica medium;
+}
+
+h7{
+  
+}
+
+#nombreJugador{
+    font-size:13px;
+    padding: 10px;
+    font-weight: 200px;
+    background-color: white;
+    border-radius: 6px;
+    border: 2px solid #C45208;
+  }
+
+#boton1{
+    font-size:10px;
+    font-family:verdana;
+    font-weight:bold;
+    padding:8px;
+    border-radius: 6px;
+    border: 2px solid #C45208;
+  
+}
+
+#boton2{
+    font-size:10px;
+    font-family:verdana;
+    font-weight:bold;
+    padding:8px;
+    border-radius: 6px;
+    border: 2px solid #C45208;
+  
+  
+}
+
+#boton3{
+    font-size:10px;
+    font-family:verdana;
+    font-weight:bold;
+    padding:8px;
+    border-radius: 6px;
+    border: 2px solid #C45208;
+}
+
+#boton4{
+    font-size:10px;
+    font-family:verdana;
+    font-weight:bold;
+    padding:8px;
+    border-radius: 6px;
+    border: 2px solid #C45208;
+}
+
+#boton5{
+    font-size:10px;
+    font-family:verdana;
+    font-weight:bold;
+    padding:8px;
+    border-radius: 6px;
+    border: 2px solid #C45208;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+#categoriaA{ 
+    display : none; 
+}
+
+#categoriaB{ 
+    display : none; 
+}
+
+#pregunta1{
+    color: #E86F15;
+}
+
+#pregunta2{ 
+    display : none;
+    color: #E86F15;
+}
+
+#pregunta3{ 
+    display : none; 
+    color: #E86F15;
+}
+
+#pregunta4{ 
+    color: #E86F15;
+}
+
+#pregunta5{ 
+    display : none;
+    color: #E86F15;
+}
+
+#pregunta6{
+   display : none;
+   color: #E86F15;
+}
+
+#resultadostyle{
+    color: #E86F15;
+    font-size: 18px;
+    font-family: helvetica roman;
+}
+    
+#volver{
+  display: none;
+  font-size:9px;
+  font-family:verdana;
+  font-weight:bold;
+  padding:8px;
+  border-radius: 6px;
+  border: 2px solid #C45208;
+}
